@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="false"
+	preserve-order="true">
+	<test name="Test1">
+		<classes>
+			<class name="actions.UserLoginTestSuite" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="actions.AddItemToCartTestSuite" />
+		</classes>
+	</test> 
+	<test name="Test3">
+		<classes>
+			<class name="actions.DefaultPageHas6ItemsTestSuite" />
+		</classes>
+	</test> 
+	 
+	 <test name="Test4">
+		<classes>
+			<class name="actions.PurchaseAndCheckoutTestSuite" />
+		</classes>
+	</test>
+	
+	 <test name="Test5">
+		<classes>
+			<class name="actions.SortPriceTestSuite" />
+		</classes>
+	</test>
+	
+	 <test name="Test6">
+		<classes>
+			<class name="actions.SortInventoryNameTestSuite" />
+		</classes>
+	</test>
+	
+	
+</suite> <!-- Suite -->
+<!-- <class name="actions.LoginTestSuite" /> <class name="actions.BuyAirtimeTestSuite" 
+	/> <class name="actions.SavedPaymentSuite" /> <class name="actions.HomeScreenTestSuite" 
+	/> <class name="actions.RecurringTransactionFlow" /> -->
