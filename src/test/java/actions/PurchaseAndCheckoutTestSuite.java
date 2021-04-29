@@ -138,7 +138,7 @@ public class PurchaseAndCheckoutTestSuite {
     public void TearDown() {
         driver.close();
         driver.quit();
-        System.out.print("Add to cart Page Test run with ");
+        System.out.print("Purchase and Checkout Page Test run with ");
     }
 
 }

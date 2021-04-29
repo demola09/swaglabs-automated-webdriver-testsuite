@@ -114,7 +114,7 @@ public class SortInventoryNameTestSuite {
     public void TearDown() {
         driver.close();
         driver.quit();
-        System.out.print("Add to cart Page Test run with ");
+        System.out.print("Sort Inventory Page Test run with ");
     }
 
 }

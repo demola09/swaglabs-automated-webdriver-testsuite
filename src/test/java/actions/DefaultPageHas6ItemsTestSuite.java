@@ -86,7 +86,7 @@ public class DefaultPageHas6ItemsTestSuite {
     public void TearDown() {
         driver.close();
         driver.quit();
-        System.out.print("Add to cart Page Test run with ");
+        System.out.print("Default 6 Items on Page Test run with ");
     }
 
 }
